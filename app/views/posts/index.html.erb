@@ -1,15 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<%= main_message %>
+
 <h1>Posts</h1>
-
-
-<br>
-
-<%= link_to 'New Post', new_post_path %>
- <%= button_to 'sign out', destroy_user_session_path, method: :delete,class: "btn btn-dark mt-3" %>
-
 
 <%= render @posts%>
 
-<%= if_session %>
+<%= user_session %>
 
