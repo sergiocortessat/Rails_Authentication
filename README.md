@@ -93,6 +93,6 @@ Project Link: [Rails-Authentication](https://github.com/sergiocortessat/Rails_Au
 
 ## 📝 License
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](https://github.com/sergiocortessat/sergiocortessat/blob/main/LICENSE) licensed.
 
 
