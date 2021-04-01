@@ -57,7 +57,7 @@ Terminal or similar to execute the program.
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone ```https://github.com/sergiocortessat/Rails_Authentication/tree/feature``` using your terminal or command line.
+- Clone this repository with git clone ```https://github.com/sergiocortessat/Rails_Authentication.git``` using your terminal or command line.
 - Change to the project directory by entering: ```cd Rails_Authentication``` in the terminal.
 
 
