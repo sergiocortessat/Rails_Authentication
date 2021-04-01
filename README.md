@@ -44,7 +44,7 @@ The Authentication project sets up an initial rails app that allows users to sig
 
 Contributions make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## Prequisites
+## Prerequisite
 
 Ruby & Rails installed on your local machine.
 bundle installed on your machine

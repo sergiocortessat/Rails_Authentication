@@ -17,7 +17,9 @@ class PostsController < ApplicationController
     @post = current_user.posts.build(post_params)
     if @post.save
       redirect_to root_path
+      flash[:notice] = 'You porst was saved succesfully'
     else
+      flash[:notice] = 'You porst couldnt be saved'
       render :new
     end
   end
