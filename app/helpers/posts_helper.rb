@@ -36,7 +36,7 @@ module PostsHelper
     if user_signed_in?
       content_tag :div, class: 'text-center py-3' do
         (button_to 'sign out', destroy_user_session_path, method: :delete, class: 'btn btn-primary w-100 mb-3') +
-          (link_to 'new post', new_post_path, class: 'btn btn-primary btn-dark w-100 ') #Ask TSE why with button the link doesnt work
+          (link_to 'new post', new_post_path, class: 'btn btn-primary btn-dark w-100 ')
       end
     else
       content_tag :div, class: 'text-center py-3' do
